@@ -1,3 +1,3 @@
 # python-work
 
-## this my progress in Python Crash Course by Eric Matthes
+## this is my progress in Python Crash Course by Eric Matthes
