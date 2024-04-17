@@ -20,3 +20,10 @@ print(squares)
 
 squares = [value**2 for value in range(1, 11)]
 print(squares)
+
+# working on tiy 4-10, add the following steps.
+
+msg = ("the first three items on the list are:")
+
+print(msg)
+print(squares[1:4])
