@@ -9,5 +9,7 @@ for user in users:
         print('Welcome back admin, would you like to see the staus report?')
     elif  user in users:
         print(f'Welcome back {user}.')
+# add if statement to check if they had any active users.
+
 if  users == []:
      print('Did everyone call of today?')
