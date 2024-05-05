@@ -47,7 +47,7 @@ for language in set(favorite_languages.values()):
 
 # Make a list of coders and check them agist people who took the poll.
 
-programmers = ('steve', 'roman','cody','jen', 'phil', 'sarah')
+programmers = ['steve', 'roman','cody','jen', 'phil', 'sarah']
 
 for programmer in programmers:
     if programmer in favorite_languages.keys():
