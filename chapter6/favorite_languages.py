@@ -3,7 +3,7 @@
 favorite_languages = {
     'jen': 'python',
     'sarah': 'c', 
-    'edward':'rust', 
+    'edward':'rust',
     'phil': 'python',
     }
 
@@ -44,3 +44,13 @@ for name in sorted(favorite_languages.keys()):
 print('The following languages have been mentioned:')
 for language in set(favorite_languages.values()):
     print(language.title())
+
+# Make a list of coders and check them agist people who took the poll.
+
+programmers = ('steve', 'roman','cody','jen', 'phil', 'sarah')
+
+for programmer in programmers:
+    if programmer in favorite_languages.keys():
+        print(f'Thank you for taking the poll {programmer.title()}.')
+    else:
+        print(f'Please take the poll {programmer.title()}.')
