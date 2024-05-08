@@ -14,7 +14,7 @@ print(f"Sarah's favorite language is {language}.")
 
 for name, language in favorite_languages.items():
     print(f"\n{name.title()}'s favorite language is {language.title()}.")
-
+    
 # Using the .key() method. 
 
 for name in favorite_languages.keys():
@@ -54,3 +54,19 @@ for programmer in programmers:
         print(f'Thank you for taking the poll {programmer.title()}.')
     else:
         print(f'Please take the poll {programmer.title()}.')
+
+favorite_languages = {
+    'jen': ['python', 'rust'],
+    'sarah': ['c'],
+    'edward': ['rust', 'go'],
+    'phil': ['python', 'haskell'],
+}
+
+for name, languages in favorite_languages.items():
+    if len(languages) == 1:
+        print(f"\n{name.title()}'s favorite language is:")
+        print(f"\t{language}")
+    else:
+        print(f"\n{name.title()}'s favorite languaes are:")
+        for language in languages:
+            print(f"\t{language.title()}")
