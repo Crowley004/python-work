@@ -1,0 +1,6 @@
+# wirte a function that prints a sentence.
+
+def display_message():
+    print("I am learning about functions!")
+
+display_message()
