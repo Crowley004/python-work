@@ -4,3 +4,9 @@ def display_message():
     print("I am learning about functions!")
 
 display_message()
+
+def favorite_book(title):
+    print(f"{title} is one of my favorite books.")
+
+favorite_book("the truth and beauty")
+    
