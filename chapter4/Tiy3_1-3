@@ -1,6 +1,6 @@
 # make a list of names and access each one.
 
-names = ["dave", "John", "jackie", "steve"]
+names = ["dave", "John", "jackie", "steve", "bill"]
 
 print(names[0].title())
 print(names[1].title())
@@ -9,3 +9,25 @@ print(names[3].title())
 
 for name in names:
     print(name.title())
+
+print(f"Hello to my friend {names[0].title()}!")
+
+print(f"Hello to my friend {names[1].title()}!")
+
+print(f"Hello to my friend {names[2].title()}!")
+
+print(f"Hello to my friend {names[3].title()}!")
+
+for name in names:
+    print(f"How are you {name}?")
+
+cars = ["civic", "blazer", "wrangler"]
+
+print(f"I would like to own a {cars[0].title()}.")
+
+print(f"I would like to own a {cars[1].title()}.")
+
+print(f"I would like to own a {cars[2].title()}.")
+
+for car in cars:
+    print(f"\nA {car.title()} would be fun to drive.")
