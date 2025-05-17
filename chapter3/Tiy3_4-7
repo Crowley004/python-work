@@ -1,0 +1,29 @@
+# Make a list of guests and print a message to each.
+
+guests = ["jackie", "greg", "zack"]
+
+for guest in guests:
+    print(f"Dear {guest.title()}, would you like to come to dinner?")
+
+cant_come = "greg"
+guests.remove(cant_come)
+print(f"\n{cant_come.title()} is not coming to dinner.")
+
+guests.insert(0, "tim")
+
+for guest in guests:
+    print(f"Dear {guest.title()}, would you like to come to dinner?")
+
+guests.insert(0, "jim")
+guests.insert(3, "mike")
+guests.append("bob")
+
+for guest in guests:
+    print(f"Dear {guest.title()}, would you like to come to dinner?")
+
+print(guests)
+
+cant_come = guests.pop(0)
+print(f"\nI'm sorry {cant_come.title()},but you can no longer come.")
+
+cant_come = guests.pop(0)
