@@ -1,0 +1,22 @@
+#4-10 use a program and add some slices
+
+my_foods = ["pizza", "falafel", "carrot cake"]
+friend_foods = my_foods[:]
+
+my_foods.append("cannoli")
+friend_foods.append("ice cream")
+
+print("My favorite foods are:")
+print(my_foods)
+
+print("\nMy friend's favorite foods are:")
+print(friend_foods)
+
+print("\nThe first three items in the list are:")
+print(my_foods[:3])
+
+print("\nthe middle items are:")
+print(my_foods[1:3])
+
+print("\nthe last three are:")
+print(my_foods[-3:])
