@@ -1,3 +1,3 @@
-f = input("what is the problem? ")
+x = input("WHAT's your name? ")
 
-sum(int(f))
+print(f"hello {x}")
