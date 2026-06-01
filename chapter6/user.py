@@ -1,5 +1,1 @@
-user_0 = {
-    "username": "eferni",
-    "first": "enrico",
-    "last": "fermi",
-}
+    print(f"\nValue: {v}")

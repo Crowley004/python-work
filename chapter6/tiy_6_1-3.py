@@ -16,5 +16,4 @@ people = {
     "jill": 90,
 }
 
-for name in people:
-    print(name)
+print(people)
