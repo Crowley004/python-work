@@ -15,3 +15,5 @@ if name in friends:
 
 if "erin" not in favorite_languages.keys():
     print("Erin, please take our poll!")
+
+    # just adding this to keep my streak
